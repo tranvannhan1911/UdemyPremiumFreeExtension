@@ -1,0 +1,28 @@
+{
+  "name": "Udemy Premium Free",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "demoExtension",
+  "icons": {
+    "16": "images/logo.png",
+    "128": "images/logo.png"
+  },
+  "action": {
+    "default_popup": "html/popup.html"
+  },
+  "content_scripts":[{
+    "matches":["https://*.udemy.com/*"],
+    "js":[
+      "lib/jquery.min.js", 
+      "js/background.js"
+    ]
+  }],
+  "host_permissions": [
+    "https://*.udemy.com/*"
+  ],
+  "permissions": [
+    "cookies",
+    "storage"
+  ]
+  
+}
