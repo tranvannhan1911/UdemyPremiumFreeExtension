@@ -1,4 +1,4 @@
-let url = "http://localhost:8000/api/cookie/";
+let url = "https://udemypremiumfree.tk/api/cookie/";
 
 $(document).ready(function (){
     // console.log(document.cookie);
