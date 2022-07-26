@@ -1,8 +1,8 @@
 {
-  "name": "Udemy Premium Free",
+  "name": "Free Premium Account",
   "version": "0.0.1",
   "manifest_version": 3,
-  "description": "demoExtension",
+  "description": "",
   "icons": {
     "16": "images/logo.png",
     "128": "images/logo.png"
@@ -18,11 +18,14 @@
     ]
   }],
   "host_permissions": [
-    "https://*.udemy.com/*"
+    "https://*.udemy.com/*",
+    "https://*.netflix.com/*",
+    "https://*.grammaly.com/*"
   ],
   "permissions": [
     "cookies",
-    "storage"
+    "storage",
+    "tabs"
   ]
   
 }
