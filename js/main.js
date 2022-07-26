@@ -1,4 +1,5 @@
-let base_url = "http://localhost:8000/api/";
+// let base_url = "https://localhost:8000/api/";
+let base_url = "https://udemypremiumfree.tk/api/";
 
 // $(".btn-update").click(function (){
 //     chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
