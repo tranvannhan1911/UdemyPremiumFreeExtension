@@ -113,7 +113,7 @@ function get_platform_card(platform){
     const date = d.getDate()
     const monthName = months[d.getMonth()]
     const dayName = days[d.getDay()]
-    const formatted = `${dayName}, ${date} ${monthName} ${year}`
+    const formatted = `${monthName} ${date}, ${year}, ${d.getHours()}:${d.getMinutes()}`
     console.log(formatted)
     return `<div class="col-4 cookie-item">
         <div class="cookie-card card" style="width: 18rem;">
